@@ -10,7 +10,7 @@ import http.server
 import socketserver
 
 # سحب توكن البوت تلقائياً من إعدادات المتغيرات في Railway
-TOKEN = os.environ.get('BOT_TOKEN', 'YOUR_BOT_TOKEN_HERE')
+TOKEN = os.environ.get('BOT_TOKEN', '8129865597:AAFEkcPlijUwj_CscNEr43ZmPthSzzPkZR0').strip()
 bot = telebot.TeleBot(TOKEN)
 
 user_data = {}
